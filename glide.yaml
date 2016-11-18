@@ -1,0 +1,22 @@
+package: github.com/sym3tri/hookz
+import:
+- package: github.com/Sirupsen/logrus
+  version: v0.10.0
+- package: github.com/fsnotify/fsnotify
+  version: v1.3.1
+- package: github.com/google/go-github
+  version: a59a35745f99ad92d70d69a9f180767063aa4bf3
+  subpackages:
+  - github
+- package: github.com/spf13/cobra
+  version: 37c3f8060359192150945916cbc2d72bce804b4d
+- package: github.com/spf13/viper
+  version: 7fb2782df3d83e0036cc89f461ed0422628776f4
+- package: golang.org/x/oauth2
+  version: 68218bf41b4d536352e1c55976641958d65c409b
+- package: github.com/coreos/pkg
+  version: v3
+  subpackages:
+  - httputil
+- package: github.com/julienschmidt/httprouter
+  version: v1.1
